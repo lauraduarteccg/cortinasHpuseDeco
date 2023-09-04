@@ -1,0 +1,60 @@
+.carousel-caption {
+  bottom: 40% !important;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  display: none !important;
+}
+.carousel-indicators{
+  display: flex!important;
+}
+.carousel-indicators [data-bs-target] {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+ 
+}
+@media (max-width: 767px) {
+  .carousel-caption {
+    bottom: 20% !important;
+  }
+}
+@media (max-width: 530px) {
+  .caption-banner h3 {
+    font-size: calc(1.15rem + 2.5vw)!important;
+  }
+  .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+}
+
+@media (max-width: 435px) {
+  .caption-banner h3 {
+    font-size: calc(1rem + 2vw)!important;
+  }
+}
+@media (max-width: 495px) {
+  .caption-banner h3 {
+    font-size: calc(0.9rem + 0.8vw)!important;
+  }
+}
+@media (max-width: 355px) {
+  .caption-banner h3 {
+    font-size: calc(0.6rem + 1.5vw)!important;
+  }
+}
+@media (max-width: 290px) {
+  .carousel-caption {
+    bottom: 10% !important;
+  }
+  .caption-banner h3 {
+    font-size: calc(0.6rem + 1vw)!important;
+  }
+}
+@media (max-width: 250px) {
+  .caption-banner h3 {
+    font-size: calc(0.5rem + 1vw)!important;
+  }
+}

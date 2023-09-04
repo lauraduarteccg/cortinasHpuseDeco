@@ -1,0 +1,21 @@
+
+.footer {
+    background-color: var(--gris-claro) !important;
+    padding: 20px 0;
+  }
+  
+  .footer a {
+    text-decoration: none;
+  }
+  
+  .social-icon {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 18px;
+    transition: all 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    transform: translateY(-3px);
+  }

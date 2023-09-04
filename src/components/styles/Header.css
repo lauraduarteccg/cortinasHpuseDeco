@@ -1,0 +1,58 @@
+h2,
+.font-pink {
+  color: var(--rosa-oscuro) !important;
+}
+
+.bg-gris-medio {
+  background-color: var(--gris-medio) !important;
+}
+nav,
+.dropdown-menu {
+  background-color: var(--gris-medio) !important;
+  padding: 10%;
+}
+.navbar-toggler-icon {
+  border: none;
+  background-color: transparent;
+  width: 24px;
+  height: 17px;
+  background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cline x1="0" y1="5" x2="30" y2="5" stroke="%23fff" stroke-width="5"%3E%3C/line%3E%3Cline x1="0" y1="14" x2="30" y2="14" stroke="%23fff" stroke-width="5"%3E%3C/line%3E%3Cline x1="0" y1="23" x2="30" y2="23" stroke="%23fff" stroke-width="5"%3E%3C/line%3E%3C/svg%3E');
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.dropdown-menu {
+  border: none !important;
+  padding: 4% !important;
+}
+
+nav a {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+nav a:hover {
+  color: var(--rosa-oscuro) !important;
+  background-color: var(--gris-medio) !important;
+}
+.dropdown-menu a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}
+ul li:hover ul.dropdown-menu {
+  display: block; /* Displegar el menún solo con hover*/
+}
+@media (max-width: 770px) {
+  .logo {
+    margin-top: 1rem;
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .navbar-toggler {
+    position: absolute;
+    right: 10%;
+   
+  }
+}
+

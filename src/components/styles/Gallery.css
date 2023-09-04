@@ -1,0 +1,11 @@
+h2,
+.font-pink {
+  color: var(--rosa-oscuro) !important;
+}
+.product {
+  transition: filter 0.3s ease;
+}
+
+.product:hover {
+  filter: brightness(130%) contrast(1.2) saturate(1.2);
+}

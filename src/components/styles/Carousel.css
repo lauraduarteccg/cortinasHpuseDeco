@@ -1,0 +1,6 @@
+.carousel-indicators{
+    display: none;
+}
+.bg-pink{
+    background: var(--rosa);
+  }

@@ -1,0 +1,26 @@
+.container-second {
+  width: 30%;
+}
+
+@media (max-width: 710px) {
+  .lead {
+    font-size: 0.7rem;
+    font-weight: 300;
+  }
+}
+@media (max-width: 950px) {
+  .container-second {
+    width: 50%;
+  }
+}
+@media (max-width: 420px) {
+  .container-second {
+    width: 80%;
+  }
+}
+@media (max-width: 340px) {
+  .container-second {
+    width: 100%;
+  }
+}
+

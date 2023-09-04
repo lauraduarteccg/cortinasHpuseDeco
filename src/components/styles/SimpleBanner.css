@@ -1,0 +1,124 @@
+.banner {
+  position: relative;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+.img {
+  position: relative;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+.banner img {
+  animation: zoom-in 5s forwards;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered h1 {
+  font-style: normal;
+  font-weight: 800;
+
+  line-height: 98px;
+}
+.special {
+  background-color: #dd969c;
+}
+.special-text {
+  position: absolute;
+  width: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .display-3 {
+    font-size: 1.2rem !important;
+    line-height: 40px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .banner {
+    height: 400px;
+  }
+
+  .display-3 {
+    font-size: 3rem !important;
+  }
+}
+@media (max-width: 300px) {
+  .banner {
+    height: 150px;
+  }
+  .display-3 {
+    font-size: 1.2rem !important;
+    line-height: 30px !important;
+  }
+}
+@media (max-width: 992px) {
+  .enrollable h1 {
+    font-size: calc(1.25rem + 3vw);
+  }
+  .special-text {
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+  }
+}
+
+@media (max-width: 650px) {
+  .enrollable h1 {
+    font-size: calc(1rem + 3vw)!important;
+  }
+  .enrollable .mt-5 {
+    margin-top: 0rem !important;
+    margin-bottom: 3rem !important;
+  }
+  .enrollable .fs-4 {
+    font-size: calc(1.1rem + 0.3vw) !important;
+  }
+}
+@media (max-width: 505px) {
+  .enrollable h1 {
+    font-size: calc(1rem + 2vw)!important;
+  }
+
+  .enrollable .fs-4 {
+    font-size: calc(1.1rem + 0.2vw) !important;
+  }
+}
+@media (max-width: 395px) {
+  .enrollable h1 {
+    font-size: calc(0.9rem + 2vw)!important;
+  }
+  .enrollable a {
+    font-size: 0.7rem !important;
+  }
+  .enrollable .mt-5 {
+    margin-top: 0rem !important;
+    margin-bottom: 2.5rem !important;
+  }
+  .enrollable .fs-4 {
+    font-size: calc(0.9rem + 0.2vw) !important;
+  }
+}
+@media (max-width: 345px) {
+  .enrollable h1 {
+    font-size: calc(0.7rem + 2vw)!important;
+  }
+  .enrollable a {
+    font-size: 0.7rem !important;
+  }
+  .enrollable .mt-5 {
+    margin-bottom: 7rem !important;
+  }
+  .enrollable .fs-4 {
+    font-size: calc(0.7rem + 0.2vw) !important;
+  }
+}

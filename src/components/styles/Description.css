@@ -1,0 +1,9 @@
+.img {
+  position: relative;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+.banner img {
+  animation: zoom-in 5s forwards;
+}

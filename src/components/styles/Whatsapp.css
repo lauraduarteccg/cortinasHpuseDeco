@@ -1,0 +1,23 @@
+.whatsapp-button {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+
+  text-decoration: none;
+  transition: transform 0.3s;
+  margin: 5rem;
+}
+@media (max-width: 750px) {
+  .whatsapp-button {
+    width: 40px;
+    height: 40px;
+    margin: 2rem;
+  }
+}

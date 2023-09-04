@@ -1,0 +1,63 @@
+.centered {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn-asesoria {
+  border: 3px solid var(--rosa-oscuro);
+  padding: 10px 10px;
+  cursor: pointer;
+}
+.btn-asesoria:hover {
+  background-color: #ffffff;
+  color: var(--rosa-oscuro) !important;
+  border: 3px solid #ffffff;
+}
+/*Responsive asesoria*/
+@media (max-width: 895px) {
+  .btn-asesoria {
+    font-size: 20px !important;
+    padding: 10px;
+  }
+}
+@media (max-width: 795px) {
+  .btn-asesoria {
+    font-size: 17px !important;
+  }
+}
+@media (max-width: 750px) {
+  .btn-asesoria {
+    font-size: 20px !important;
+  }
+}
+@media (max-width: 590px) {
+  .btn-asesoria {
+    font-size: 15px !important;
+  }
+}
+@media (max-width: 485px) {
+  .btn-asesoria {
+    font-size: 12px !important;
+  }
+}
+@media (max-width: 390px) {
+  .btn-asesoria {
+    font-size: 10px !important;
+  }
+}
+@media (max-width: 330px) {
+  .btn-asesoria {
+    font-size: 7px !important;
+  }
+}
+@media (max-width: 250px) {
+  .btn-asesoria {
+    font-size: 6px !important;
+  }
+}
+@media (max-width: 20px) {
+  .btn-asesoria {
+    font-size: 5px !important;
+  }
+}
