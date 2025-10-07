@@ -1,7 +1,0 @@
-deployment:
-  tasks:
-    - /bin/rm -rf /home/usuario/public_html/*
-    - cd /home/usuario/repositories/cortinasHpuseDeco
-    - npm install
-    - npm run build
-    - /bin/cp -R dist/* /home/usuario/public_html/
