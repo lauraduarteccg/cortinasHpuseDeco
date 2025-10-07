@@ -2,6 +2,6 @@ deployment:
   tasks:
     - /bin/rm -rf /home/jummwqdg/public_html/*
     - cd /home/jummwqdg/repositories/cortinasHpuseDeco
-    - npm install
-    - npm run build
-    - /bin/cp -R dist/* /home/jummwqdg/public_html/
+    - /opt/alt/alt-nodejs20/root/usr/lib/node_modules/npm/bin/npm install
+    - /opt/alt/alt-nodejs20/root/usr/lib/node_modules/npm/bin/npm run build
+    - /bin/cp -R build/* /home/jummwqdg/public_html/
