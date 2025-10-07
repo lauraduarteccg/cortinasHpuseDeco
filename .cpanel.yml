@@ -1,7 +1,14 @@
 deployment:
   tasks:
     - /bin/rm -rf /home/jummwqdg/public_html/*
+<<<<<<< HEAD
     - cd /home/jummwqdg/repositories/cortinasHpuseDeco
     - npm install
     - npm run build
     - /bin/cp -R dist/* /home/jummwqdg/public_html/
+=======
+    - cd /home/usuario/repositories/cortinasHpuseDeco
+    - npm install
+    - npm run build
+    - /bin/cp -R dist/* //home/jummwqdg/public_html/
+>>>>>>> d294b3daea61631c4fa2ded89bdb6c5d600c3833
